@@ -86,7 +86,7 @@
       const target = document.querySelector(href);
       if (!target) return;
       e.preventDefault();
-      const top = target.getBoundingClientRect().top + window.scrollY - 72;
+      const top = target.getBoundingClientRect().top + window.scrollY - 92;
       window.scrollTo({ top, behavior: 'smooth' });
     });
   });
